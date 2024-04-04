@@ -30,4 +30,5 @@
 
 
 -> Email subscription through Mailchimp API.
+
 ->Laravel blade components.
