@@ -7,5 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Blog
-
+## The Blog functional modules
+->Database seeding through seeder so no need to manually create data.
+->User registration page to write posts or comment on specific posts.
+->User authentication and using middleware to redirect to different routes.
+-> The user can create a post only if registered in the database through auth middleware.
+->Admin middleware to see all posts, see all users, delete, and update posts, and the users.
+->Relationship between different sections for instance user, and post. A post can have many comments, each comment belongs to a specific user. A post belongs to a category, and each post has some category. It is a one-to-one relationship.
+-> Searching based on the category of the post, or based on the title or body of the post.
+-> Email subscription through Mailchimp api.
