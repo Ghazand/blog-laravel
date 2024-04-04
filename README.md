@@ -9,6 +9,8 @@
 
 ## The Blog functional modules
 ->Database seeding through seeder so no need to manually create data.
+
+
 ->User registration page to write posts or comment on specific posts.
 ->User authentication and using middleware to redirect to different routes.
 -> The user can create a post only if registered in the database through auth middleware.
