@@ -23,6 +23,11 @@ use App\Http\Controllers\AdminRegisterUserController;
 |
 */
 
+
+use App\Http\Controllers\WeatherController;
+
+Route::get('/weather/{city}', [WeatherController::class, 'show']);
+
 Route::get('/', [PostController::class,'index'])->name('home');
 
 // Route::get('posts/{post}', function($id){
